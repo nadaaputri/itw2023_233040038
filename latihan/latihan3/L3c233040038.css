@@ -8,6 +8,9 @@ h1 {
  color: darkblue;
 }
 h3 a {color: white;}
+.tebal:hover {
+    color: red;
+}
 h4 {
  text-align: right;
  font-style: italic;
@@ -16,3 +19,7 @@ p {text-align: center;}
 #paragraf1 {
     color: orange;
     }
+.mark:hover {
+    color: white;
+    background-color: darkblue;
+}
