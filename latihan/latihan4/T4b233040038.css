@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: auto;
     background-color: white;
 }
@@ -122,7 +122,7 @@ body {
 .footer .copy {
     color: #eaeaea;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .content .antaragorontalo a{
