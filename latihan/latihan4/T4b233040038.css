@@ -1,0 +1,146 @@
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style-type: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* style */
+body {
+    font: 16px/28px arial,sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    background-image: url(img/bgartikel.jpg);
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: lightseagreen;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 500px;
+    background-image: url(img/heroTb.jpg);
+    background-size: cover;
+    background-position: 0 0;
+    border-bottom: 5px solid lightseagreen;
+    border-top: 5px solid coral;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .sumber{
+    margin-top: -8px;
+}
+
+.content .sumber a{
+    font-size: 11px;
+    color: lightslategrey;
+}
+
+.content .sumber2{
+    margin-top: -10px;
+}
+
+.content .sumber2 a{
+    font-size: 11px;
+    color: lightslategrey;
+}
+
+.content .penulis a{
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.content p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.content ul {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+.content .antaragorontalo a{
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.content .antaragorontalo a:hover {
+    background-color: lightblue;
+    color: aliceblue;
+}
+
+.content .berita a{
+    color: coral;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content ul li{
+    margin-left: -38px;
+}
