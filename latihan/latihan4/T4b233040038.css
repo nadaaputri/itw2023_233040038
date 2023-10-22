@@ -30,6 +30,8 @@ body {
     width: 1000px;
     margin: auto;
     background-color: white;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
 }
 
 .header {
